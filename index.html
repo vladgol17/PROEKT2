@@ -1,11 +1,59 @@
-<div class="d-flex flex-column justify-content-center w-100 h-100">
+<!-- Based on Create a Website With Video Background | HTML & CSS by Brad Traversy (2021)
+see: https://www.youtube.com/watch?v=8MgpE2DTTKA -->
 
-  <div class="d-flex flex-column justify-content-center align-items-center">
-    <h1 class="fw-light text-white m-0">Pure CSS Gradient Background Animation</h1>
-    <div class="btn-group my-5">
-      <a href="#" class="btn btn-outline-light" aria-current="page"><i class="fas fa-file-download me-2"></i> Какая-то кнопка </a>
-      <a href="#" class="btn btn-outline-light">Ещё кнопка <i class="fas fa-expand ms-2"></i></a>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Travel Landing Page</title>
+  </head>
+  <body>
+    <section class="showcase">
+      <header>
+        <h2 class="logo">Travel</h2>
+        <div class="toggle"></div>
+      </header>
+      <video
+        src="https://designsupply-web.com/samplecontent/vender/codepen/20181014.mp4"
+        muted
+        loop
+        autoplay
+      ></video>
+      <!-- Download Video Source and host the file on your own server -->
+      <!-- For example: https://www.pexels.com/video/aerial-view-of-beautiful-resort-2169880/ -->
+      <div class="overlay"></div>
+      <div class="text">
+        <h2>Never Stop</h2>
+        <h3>Exploring The World</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi
+          provident unde illum fuga culpa enim eos amet ullam explicabo.
+        </p>
+        <a href="#">Explore</a>
+      </div>
+      <ul class="social">
+        <li>
+          <a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png" /></a>
+        </li>
+      </ul>
+    </section>
+    <div class="menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Destination</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
     </div>
-  </div>
-</div>
-</div>
+    <script src="script.js"></script>
+  </body>
+</html>
